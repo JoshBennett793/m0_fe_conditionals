@@ -121,12 +121,21 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age <= 1);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+/* I decided to evaluate whether the dog loves to play and is a puppy by writing a 
+conditional to determine whether the 'lovesToPlay' variable is true and the age 
+is less than or equal to 1. This would be based on an agreed upon determination that 
+any dog with an age less than or equal to 1 is considered a puppy. In this case, both 
+conditionals evaluated to 'true', thus logging 'true' to the console.*/
