@@ -6,41 +6,58 @@
 
 // Make sure to run the file in your command line using `node <filename>.js`
 
-
 // -------------------
 // PART 1: Comparing variables
 // -------------------
 
-var numberTeachers = 4
-var numberStudents = 20
-var stringTeachers = "4"
-var numberDogs = 0
+var numberTeachers = 4;
+var numberStudents = 20;
+var stringTeachers = '4';
+var numberDogs = 0;
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
-console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
+console.log(
+  'Is numberTeachers greater than numberStudents?',
+  numberTeachers > numberStudents,
+);
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
+console.log(
+  'Is numberTeachers less than numberStudents?',
+  numberTeachers < numberStudents,
+);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
+console.log(
+  'Is numberTeachers strictly equal to stringTeachers?',
+  numberTeachers === stringTeachers,
+);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log(
+  'Is numberTeachers not equal to numberStudents?',
+  numberTeachers !== numberStudents,
+);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
+console.log('Is numberStudents greater than or equal to 20?', numberStudents >= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log('Is numberStudents greater than or equal to 21?', numberStudents >= 21);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
+console.log('Is numberStudents less than or equal to 20?', numberStudents <= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
+console.log('Is numberStudents less than or equal to 21?', numberStudents <= 21);
 // this should log: true
-
 
 // #-------------------
 // PART 2: Articulating what you are doing
@@ -68,7 +85,6 @@ var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
 
-
 // #-------------------
 // PART 3: Logical Operators
 // #-------------------
@@ -90,12 +106,9 @@ var age = 1;
 // YOU DO:
 // Determine if the dog loves to play and loves treats
 
-
 // Determine if the dog loves to play and loves the dog park
 
-
 // Determine if the dog loves to play or loves the dog park
-
 
 // Determine if the dog loves to play and is a puppy
 
