@@ -70,20 +70,36 @@ console.log('Is numberStudents less than or equal to 21?', numberStudents <= 21)
 
 console.log(4 < 9);
 // YOU DO: Explain.
+/* Line 71 will log a boolean to the console based on whether 4 is less than 9. In this case, since 4 is 
+less than 9, it will log 'true' to the console. */
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
+/* Line 76 is assigning the number 3 to a variable with the name of 'books'. Line 77 will log a boolean
+to the console based on whether 4 is less than the value of the variable 'books'. In this case, since
+'books' has been assigned the value of 3 and 3 is less than 4, '4 < books' will evaluate to 'false', 
+thus logging 'false' to the console. */
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+/* Line 84 is assigning the number 6 to a variable with the name of 'friends'. Line 85 is assigning 
+the number 2 to a variable with the name of 'siblings'. Line 86 will log a boolean to the console based
+on whether the value of 'friends' is greater than the value of 'siblings'. In this case, since 'friends' 
+has been assigned the value of 6 and 'siblings' has been assigned the value of 2, 'friends > siblings' 
+or '6 > 2' will evaluate to 'true', thus logging 'true' to the console. */
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+/* Line 94 is assigning the number 9 to a variable with the name of 'attendees'. Line 95 is assigning 
+the number 8 to a variable with the name of 'meals'. Line 96 will log a boolean to the console based on
+whether the value of 'attendees' is not strictly equal to the value of 'meals'. In this case, since the 
+value of 'attendees' is not equal to the value of 'meals', 'attendees !== meals' will evaluate to 'true', 
+thus logging 'true' to the console.  */
 
 // #-------------------
 // PART 3: Logical Operators
